@@ -1,4 +1,5 @@
-def unstable_variance(X_vector):
+def unstable_variance(a, b, c):
+    X_vector = [a, b, c]
     n = 0
     summation = 0
     sum_square = 0
