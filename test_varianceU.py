@@ -10,7 +10,7 @@ def unstable_variance(a, b, c):
     variance = (sum_square - (summation * summation)/n)/(n-1)
     return variance
 
-def test_variance():
+def test_varianceU():
     assert unstable_variance(100.0, 100.0, 100.0) == 0.0
 
     assert unstable_variance(100.0, 1000.0, 10000.0) == 29970000.0
